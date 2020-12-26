@@ -22,7 +22,7 @@ public class HelloWebApp extends HttpServlet {
         	//out.println("<body bgcolor=\"Green\">");
         	out.println("<h1>Hello from Staragile</h1>");
         	
-        	out.println("<h3>Demo Java Project for Staragile DevOps certification Jul-2020 from Prashant Beniwal</h3>");
+        	out.println("<h3>Demo Java Project for Staragile DevOps certification Jul-2020 from Prashant Beniwal Edited by Pawan Kumar</h3>");
         	
         	out.println("<p>A Random Number v1 : <strong>" + Math.random() + "</strong></p>");
            	
