@@ -7,9 +7,11 @@
   tasks:
   - name: Update apt repo
     apt: update_cache=yes name=docker.io state=present
-  - name: Remove Docker Container and Image
+  - name: Remove Existing Docker Container 
     shell:
      cmd: docker rm --force hellostaragile || echo
+  - name: Remove Existing Docker Image
+    shell:
      cmd: docker rmi --force kerurpm/hellowithwar
   - name: Start Docker Container
     shell:
