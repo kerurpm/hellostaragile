@@ -18,7 +18,7 @@ public class HelloWebApp extends HttpServlet {
         	resp.setContentType("text/html");
         	
         	out.println("<html>");
-        	out.println("<body bgcolor=\"Grey\">");
+        	out.println("<body bgcolor=\"Blue\">");
         	//out.println("<body bgcolor=\"Green\">");
         	out.println("<h1>Hello from Staragile</h1>");
         	
